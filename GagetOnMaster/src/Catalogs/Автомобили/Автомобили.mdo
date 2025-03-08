@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0676a2b9-c260-4007-8bba-04736cab88e6">
+  <producedTypes>
+    <objectType typeId="85f62fa3-c01b-4688-8339-5edc0436a547" valueTypeId="8ab4ae54-ff05-42e2-81d4-2862b8748b13"/>
+    <refType typeId="1642370c-0d7f-4166-b5e6-abaaa1ff6f13" valueTypeId="31ea3ee5-6004-41f4-8fc9-997304ceed16"/>
+    <selectionType typeId="8853bcfc-f8ab-403e-870a-60938ad28471" valueTypeId="3355aeaa-237f-4162-81ee-55cae2ee38ee"/>
+    <listType typeId="cbdfbdc1-8fe1-45e5-bb29-876d9d6ebdef" valueTypeId="1baa8605-8c43-4cb5-82da-5e09e44d1044"/>
+    <managerType typeId="5d10447b-9907-472c-89ff-39f112360f18" valueTypeId="a3a8818b-e15f-45d6-95dd-3e8ee9cf2e9c"/>
+  </producedTypes>
+  <name>Автомобили</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомобили</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Автомобили.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Автомобили.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

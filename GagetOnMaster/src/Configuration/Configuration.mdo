@@ -62,6 +62,7 @@
   <catalogs>Catalog.Города</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Работники</catalogs>
+  <catalogs>Catalog.Автомобили</catalogs>
   <documents>Document.ЗаказыПоставщикам</documents>
   <documents>Document.ПриходныеНакладные</documents>
   <documents>Document.РасходыДенежныхСредств</documents>
