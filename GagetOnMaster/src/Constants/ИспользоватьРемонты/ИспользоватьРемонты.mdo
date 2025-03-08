@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01091222-d946-477b-be8a-8bbef464071d">
+  <producedTypes>
+    <managerType typeId="1c5f421a-39a7-4c53-afde-ebf1d9f87d26" valueTypeId="c0c3dba5-d834-446d-a548-b3f89740032d"/>
+    <valueManagerType typeId="adbc6d17-5257-4a88-9c64-595a87363177" valueTypeId="68306141-27e9-4416-b93d-2a7377eac5e2"/>
+    <valueKeyType typeId="db6dd743-2d17-4028-90d4-d76a3838b275" valueTypeId="513c4218-2eb8-4c59-9255-91a9d5a0ac73"/>
+  </producedTypes>
+  <name>ИспользоватьРемонты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ремонты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
