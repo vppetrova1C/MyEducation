@@ -48,4 +48,50 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="22f95ae1-e494-4ab3-9ac7-e7591852d1ef">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="35ae5c9f-04f5-4784-aae1-eb3b371312f6">
+    <producedTypes>
+      <objectType typeId="eed2141c-830f-4ab2-86d4-7d5d3c812a66" valueTypeId="48b32e53-43b2-4a39-b6f4-b90fb95de63f"/>
+      <rowType typeId="f478733b-5d67-43eb-9fb0-b17615d29717" valueTypeId="36cb7b5d-300b-4dc4-88a1-8a1e14f0febe"/>
+    </producedTypes>
+    <name>Навыки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Навыки</value>
+    </synonym>
+    <attributes uuid="7050277d-c28e-4665-9ff0-6b031c2a8e58">
+      <name>Навык</name>
+      <synonym>
+        <key>ru</key>
+        <value>Навык</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
