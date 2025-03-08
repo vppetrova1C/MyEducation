@@ -71,10 +71,10 @@
       <objectType typeId="eed2141c-830f-4ab2-86d4-7d5d3c812a66" valueTypeId="48b32e53-43b2-4a39-b6f4-b90fb95de63f"/>
       <rowType typeId="f478733b-5d67-43eb-9fb0-b17615d29717" valueTypeId="36cb7b5d-300b-4dc4-88a1-8a1e14f0febe"/>
     </producedTypes>
-    <name>Навыки</name>
+    <name>ЛичныеДанные</name>
     <synonym>
       <key>ru</key>
-      <value>Навыки</value>
+      <value>Личные данные</value>
     </synonym>
     <attributes uuid="7050277d-c28e-4665-9ff0-6b031c2a8e58">
       <name>Навык</name>
@@ -87,6 +87,23 @@
         <stringQualifiers>
           <length>150</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e7682d15-09f2-4557-a921-61f335277a1b">
+      <name>Возрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возрат</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
